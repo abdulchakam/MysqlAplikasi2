@@ -1,0 +1,2 @@
+rootProject.name='MysqlAplikasi2'
+include ':app'
