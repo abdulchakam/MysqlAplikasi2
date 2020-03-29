@@ -46,7 +46,8 @@ public class ProdukAdapter extends RecyclerView.Adapter<ProdukAdapter.ProdukView
         //holder.icon.setImageResource(dataList.get(position).getImg());
         //penggunaan library glide
         Glide.with(context) //konteks bisa didapat dari activity yang sedang berjalan
-                .load(dataList.get(position).getImg()) // mengambil data dengan cara "list.get(position)" mendapatkan isi berupa objek Menu. kemudian "Menu.geturlGambar"
+                // mengambil data dengan cara "list.get(position)" mendapatkan isi berupa objek Menu. kemudian "Menu.geturlGambar"
+                .load(dataList.get(position).getImg())
                 .thumbnail(0.5f) // resize gambar menjadi setengahnya
                 .into(holder.icon); // mengisikan ke imageView
         // penggunaan library Picasso

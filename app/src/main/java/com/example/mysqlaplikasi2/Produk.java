@@ -40,5 +40,6 @@ public class Produk {
     public void setImg(String img) {
         this.img = img;
     }
+    //letak dari file gambar
     public String getImg() { return "http://192.168.43.206/PemogramanMobile2/APIBarang/uploads/"+img;  }
 }
